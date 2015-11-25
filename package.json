@@ -1,7 +1,7 @@
 {
   "name": "boxfish-fork-moviedb",
   "description": "Library for interacting with themoviedb.com API",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "scripts": {
     "test": "clear; make test"
   },
@@ -21,10 +21,10 @@
   },
   "homepage": "https://github.com/danieldmo/moviedb#readme",
   "directories": {
-    "lib": "./lib"
+    "test": "test"
   },
   "main": "index.js",
-  "author": "Dan Zajdband <dan.zajdband@gmail.com> + Forked By Daniel Oliveira <daniel@boxfish.com>",
+  "author": "Dan Zajdband <dan.zajdband@gmail.com>",
   "dependencies": {
     "chai": "^3.4.1",
     "colors": "^1.1.2",
