@@ -1,7 +1,7 @@
 {
   "name": "boxfish-fork-moviedb",
   "description": "Library for interacting with themoviedb.com API",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "scripts": {
     "test": "clear; make test"
   },
