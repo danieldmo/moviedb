@@ -1,16 +1,20 @@
 {
-  "name": "moviedb",
+  "name": "boxfish-fork-moviedb",
   "description": "Library for interacting with themoviedb.com API",
-  "version": "0.2.2",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "clear; make test"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/impronunciable/moviedb.git"
+    "url": "git+https://github.com/danieldmo/moviedb.git"
   },
   "license": "MIT",
   "keywords": [
     "themoviedb",
     "api",
-    "tmdb"
+    "tmdb",
+    "boxfish"
   ],
   "repository": {
     "type": "git",
@@ -18,14 +22,14 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/impronunciable/moviedb/issues"
+    "url": "https://github.com/danieldmo/moviedb/issues"
   },
-  "homepage": "https://github.com/impronunciable/moviedb#readme",
+  "homepage": "https://github.com/danieldmo/moviedb#readme",
   "directories": {
     "lib": "./lib"
   },
   "main": "index.js",
-  "author": "Dan Zajdband <dan.zajdband@gmail.com>",
+  "author": "Dan Zajdband <dan.zajdband@gmail.com> + Forked By Daniel Oliveira <daniel@boxfish.com>",
   "dependencies": {
     "superagent": "0.21.0"
   }
